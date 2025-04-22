@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pola i obwody</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="obliczenia.js" defer></script>
+</head>
+
+<h1>Kalkulator Pól i Obwodów Figur</h1>
+    <div class="yabdabadoo">    
+    </div>
+
+    <div class="figury">
+        <h2>Kwadrat</h2>
+        <label for="KwadratBok">Bok</label>
+        <input type="number" id="KwadratBok" placeholder="Podaj długość boku">
+        <button onclick="ObliczKwadrat()">Oblicz</button>
+        <div class="wynik" id="KwadratWynik"></div>
+    </div>
+    
+    <div class="figury">
+        <h2>Prostokąt</h2>
+        <label for="ProstokatBok1">Bok1</label>
+        <input type="number" id="ProstokatBok1" placeholder="Podaj długość 1-ego boku">
+        <label for="ProstokatBok2">Bok2</label>
+        <input type="number" id="ProstokatBok2" placeholder="Podaj długość 2-ego boku">
+        <button onclick="ObliczProstokat()">Oblicz</button>
+        <div class="wynik" id="ProstokatWynik"></div>
+    </div>
+
+    <div class="figury">
+        <h2>Okrąg</h2>
+        <label for="OkragPromien">Promien</label>
+        <input type="number" id="OkragPromien" placeholder="Podaj promień">
+        <button onclick="ObliczOkrag()">Oblicz</button>
+        <div class="wynik" id="OkragWynik"></div>
+    </div>
+
+    <div class="figury">
+        <h2>Trójkąt Prostokątny</h2>
+        <label for="TrojkatPodstawa">Podstawa</label>
+        <input type="number" id="TrojkatPodstawa" placeholder="Podaj podstawe">
+        <label for="TrojkatWysokosc">Wysokosc</label>
+        <input type="number" id="TrojkatWysokosc" placeholder="Podaj wysokość">
+        <button onclick="ObliczTrojkat()">Oblicz</button>
+        <div class="wynik" id="TrojkatWynik"></div>
+    </div>
+</body>
+</html>
